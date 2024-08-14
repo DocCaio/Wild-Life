@@ -5,6 +5,8 @@
     height: 50px;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 100;
 
 }
 
