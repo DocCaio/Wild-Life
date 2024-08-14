@@ -1,0 +1,15 @@
+.header {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerLink {
+    text-decoration: none;
+    color:#eee;
+    margin-right: 40px;
+}
