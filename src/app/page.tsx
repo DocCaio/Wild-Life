@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 import Navbar from "./components/navbar/navbar";
 import Image from "next/image";
-import Lion from '../assets/img1.jpg';
+import Lion from '../assets/tiger.jpeg';
 
 export default function Home() {
   return (
