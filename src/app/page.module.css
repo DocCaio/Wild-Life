@@ -28,3 +28,29 @@
     box-sizing: border-box;
     text-shadow: 0 5px 10px #0004;
 }
+
+.carousel .list .item .content .author {
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.carousel .list .item .content .title,
+.carousel .list .item .content .title .topic
+ {
+    font-weight: bold;
+    font-size: 5em;   
+    line-height: 1.3em;
+
+}
+
+ .topic {
+    color: #f1683a;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 130px);
+  grid-template-rows: 40px;
+  gap: 5px;
+  margin-top: 20px;
+}
+
