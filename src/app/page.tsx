@@ -21,8 +21,8 @@ export default function Home() {
                   Description
                 </div>
                 <div className={styles.buttons}>
-                  <button>See more</button>
-                  <button>Subscribe</button>
+                  <button className={styles.btn}>See more</button>
+                  <button className={styles.btn}>Subscribe</button>
 
                 </div>
 

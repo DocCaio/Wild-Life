@@ -30,27 +30,42 @@
 }
 
 .carousel .list .item .content .author {
-  font-weight: bold;
-  letter-spacing: 10px;
+    font-weight: bold;
+    letter-spacing: 10px;
 }
 
 .carousel .list .item .content .title,
-.carousel .list .item .content .title .topic
- {
+.carousel .list .item .content .title .topic {
     font-weight: bold;
-    font-size: 5em;   
+    font-size: 5em;
     line-height: 1.3em;
 
 }
 
- .topic {
+.topic {
     color: #f1683a;
 }
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 130px);
-  grid-template-rows: 40px;
-  gap: 5px;
-  margin-top: 20px;
+
+.carousel .list .item .content .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.carousel .list .item .content .btn {
+    border: none;
+    background-color: #eee;
+    letter-spacing: 3px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+
+.carousel .list .item .content .btn:nth-child(2) {
+    background-color: black;
+    border: 1px solid #eee;
+    color:  #eee;
 }
 
