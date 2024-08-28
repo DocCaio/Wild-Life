@@ -43,6 +43,9 @@
 }
 
 .topic {
+    font-weight: bold;
+    font-size: 5em;
+    line-height: 1.3em;
     color: #f1683a;
 }
 

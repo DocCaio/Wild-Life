@@ -15,9 +15,9 @@ export default function Home() {
             <div className={styles.item}>
               <Image className={styles.img} alt="Wild animal back-ground" src={Lion} />
                <div className={styles.content}>
-               <div className={styles.author}>Caio</div>
-               <div className={styles.title}>Lion</div>
-               <div className={styles.topic}>Wild</div>
+               <div className={styles.author}>Animal</div>
+               <div className={styles.title}>Tiger</div>
+               <div className={styles.topic}>Wild Life</div>
                <div className={styles.description}>
                   Description
                 </div>
