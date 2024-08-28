@@ -6,4 +6,6 @@
   color: #eee;
   margin: 0;
   font-size: 16px;
+  padding: 0;  
+  box-sizing: border-box;
 }

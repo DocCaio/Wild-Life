@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/navbar";
 import Image from "next/image";
 import Lion from '../assets/tiger.jpeg';
 import Thumbnail from './components/thumbnail/thumbnail';
+import Arrow from './components/arrows/arrows';
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
 
         </div>
           <Thumbnail/> 
+          <Arrow/>
       </main>
     </>
   );
