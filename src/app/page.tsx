@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar/>
       <main className={styles.main}>
-        <div className={styles.carousel} id={styles.next}>
+        <div className={styles.carousel} id={styles.prev}>
           <div className={styles.list}>
             <div className={styles.item}>
               <Image className={styles.img} alt="Wild animal back-ground" src={Lion} />

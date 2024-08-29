@@ -137,4 +137,43 @@
 }
 
 
+.carousel #prev .list .item:nth-child(2) {
+    z-index: 2;
 
+}
+
+.carousel #prev .list .item:nth-child(2) .img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation:  outImage 0.5s linear 1 forwards;
+}
+
+@keyframes outImage {
+    to {
+        width: 150px;
+        height: 220px;
+        border-radius: 20px;
+        left: 50%;
+        bottom: 50px;
+    }
+}
+
+.carousel .list .item:nth-child(2) .author,
+.carousel .list .item:nth-child(2) .title,
+.carousel .list .item:nth-child(2) .topic,
+.carousel .list .item:nth-child(2) .description,
+.carousel .list .item:nth-child(2) .btn {
+  animation: contentOut 1.5s linear 1 forwards;
+}
+
+@keyframes contentOut  {
+ to {
+    transform: translateY(-150px);
+    filter: blur(20px);
+    opacity:0;
+    animation: contentOut 0.5s 1s linear 1 forwards;
+}
+
+
+ }  

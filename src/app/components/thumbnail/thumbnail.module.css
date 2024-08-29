@@ -32,3 +32,37 @@
 .thumbnail .item .content .title {
     font-weight: bold;
 }
+
+.carosel #next .thumbnail .item:nth-last-child(1) {
+    width: 0;
+    overflow: hidden;
+    animation: showThumbnail 0.5 linear 1 forwards;
+}
+
+@keyframes  showThumbnail {
+    to {
+        width: 150px;
+    }
+}
+
+.carosel #next .thumbnail {
+    transform: translateX(150px);
+    animation: transformThumnail 0.5s linear 1 forwards;
+}
+
+@keyframes transformThumnail {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.carousel #prev .thubnail .item:nth-child(1) {
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+
+
+
