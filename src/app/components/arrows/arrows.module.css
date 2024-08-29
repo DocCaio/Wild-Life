@@ -17,10 +17,16 @@
     height: 40px;
     border-radius: 50%;
     border: none;
-    border-color: #eee4;
-    color: #000;
+    background-color: #eee4;
+    color: #eee;    
     font-weight: bold;
     font-size: large;
     font-family:monospace;
     transition:  0.5s;
+    z-index: 100;
+}
+
+.btn:hover {
+    background-color: #eee;
+    color: #555;
 }
