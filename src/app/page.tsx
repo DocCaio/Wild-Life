@@ -6,12 +6,14 @@ import Lion from '../assets/tiger.jpeg';
 import Thumbnail from './components/thumbnail/thumbnail';
 import Arrow from './components/arrows/arrows';
 
+
+
 export default function Home() {
   return (
     <>
       <Navbar/>
       <main className={styles.main}>
-        <div className={styles.carousel} id={styles.prev}>
+        <div className={styles.carousel}>
           <div className={styles.list}>
             <div className={styles.item}>
               <Image className={styles.img} alt="Wild animal back-ground" src={Lion} />

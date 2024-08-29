@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('../../page.module.css');
 .arrows {
     position: absolute;
     top: 80%;
@@ -29,4 +29,31 @@
 .btn:hover {
     background-color: #eee;
     color: #555;
+}
+
+.carousel .next .arrows .btn {
+    pointer-events: none;
+}
+
+/*Time*/
+
+.time {
+    width: 0%;
+    height: 5px;
+    background-color: #f1683a;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+
+.carousel .next .time, 
+.carousel .prev .time {
+    width: 100%;
+    animation: timeRunning 2s linear 1 forwards;
+}
+@keyframes timeRunning {
+    to {
+        width: 0;
+    }
 }

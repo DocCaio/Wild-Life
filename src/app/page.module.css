@@ -137,12 +137,12 @@
 }
 
 
-.carousel #prev .list .item:nth-child(2) {
+.carousel .prev .list .item:nth-child(2) {
     z-index: 2;
 
 }
 
-.carousel #prev .list .item:nth-child(2) .img {
+.carousel .prev .list .item:nth-child(2) .img {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -177,3 +177,13 @@
 
 
  }  
+
+ @media screen and (max-width:678px){
+    .carousel .list .item .content {
+        padding-right: 0;
+    } 
+    
+    .carousel .list .item .content .title {
+        font-size: 30px;
+    }
+ }
