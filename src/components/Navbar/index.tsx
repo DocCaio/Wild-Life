@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import styles from "./navbar.module.css";
 
 export default function Navbar() {
@@ -6,10 +6,10 @@ export default function Navbar() {
     <header className={styles.header}>
       <nav>
         <ul className={styles.headerList}>
-        <Link className={styles.headerLink} href='#'>Home</Link>
+        <a className={styles.headerLink} href='#'>Home</a>
 
-        <Link className={styles.headerLink} href='#'>Contact</Link>
-        <Link className={styles.headerLink} href='#'>Info</Link>
+        <a className={styles.headerLink} href='#'>Contact</a>
+        <a className={styles.headerLink} href='#'>Info</a>
         </ul>
       </nav>
 
