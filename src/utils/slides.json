@@ -4,7 +4,7 @@
       { "id": "2", "src": "lizard.jpeg", "title": "Lizard", "description": "Description", "author": "Animal", "topic": "Wild Life" },
       { "id": "3", "src": "moose.jpeg", "title": "Moose", "description": "Description", "author": "Animal", "topic": "Wild Life" },
       { "id": "4", "src": "elefante.jpeg", "title": "Elephant", "description": "Description", "author": "Animal", "topic": "Wild Life" },
-      { "id": "5", "src": "tucano.jpeg", "title": "Tucano", "description": "Description", "author": "Animal", "topic": "Wild Life" }
+      { "id": "5", "src": "tucano.jpeg", "title": "Toucan", "description": "Description", "author": "Animal", "topic": "Wild Life" }
     ]
   }
   
