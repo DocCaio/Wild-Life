@@ -1,14 +1,21 @@
-.header {
-    width: 1140px;
-    max-width: 80%;
+.header {    
     margin: auto;
     height: 50px;
     display: flex;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;   
     position: relative;
     z-index: 100;
+    background-color:  #EC6608;
 
 }
+
+.nav {
+    max-width: 80%;
+    width: 1140px;
+    align-items: center;
+}
+
 
 .headerLink {
     text-decoration: none;

@@ -70,7 +70,7 @@ function App() {
                       </div>
                       <div className={styles.buttons}>
                         <button className={styles.btn}>See more</button>
-                        <button className={styles.btn}>Subscribe</button>
+                        <button className={styles.btn}>Tickets</button>
                       </div>
                     </div>
                   </div>
