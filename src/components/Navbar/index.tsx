@@ -6,10 +6,18 @@ export default function Navbar() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <ul className={styles.headerList}>
-        <a className={styles.headerLink} href='#'>Home</a>
+          <li>
+          <a className={styles.headerLink} href='#'>Home</a>
+          </li>
+          <li>
+          <a className={styles.headerLink} href='#contact'>Contact</a>
+          </li>
+          <li>
+          <a className={styles.headerLink} href='../../pages/Info'>Info</a>
+          </li>     
 
-        <a className={styles.headerLink} href='#'>Contact</a>
-        <a className={styles.headerLink} href='#'>Info</a>
+  
+    
         </ul>
       </nav>
 

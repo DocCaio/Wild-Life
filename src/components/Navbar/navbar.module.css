@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.headerList {
+    display: flex;
+}
+
 
 .headerLink {
     text-decoration: none;

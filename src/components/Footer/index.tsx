@@ -3,7 +3,7 @@ import ZooDEV from "../../assets/zoodev.png";
 
 export default function Navbar() {
   return (
-   <footer className={styles.footer}>
+   <footer id="contact" className={styles.footer}>
     <div className={styles.img}>
     <img src={ZooDEV} alt="Logo"/>
 
@@ -29,11 +29,11 @@ export default function Navbar() {
           <span>Social media</span>
           <li>
           <i id={styles.geo}  className="bi bi-instagram"></i>
-            <a>Instagran</a>
+            <a>@ZooDEV</a>
             </li>
           <li>
           <i id={styles.geo}  className="bi bi-tiktok"></i>
-            <a>Tik Tok</a>
+            <a>@ZooDEVGarden</a>
             </li>          
         </ul>
       </div>
