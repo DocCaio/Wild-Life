@@ -9,12 +9,12 @@ const PaginaErro = () => {
       <div className="d-flex align-items-center justify-content-center vh-100">
         <div className="text-center">
           <h1 className="display-1 fw-bold">404</h1>
-          <p className="fs-3">Ops! Página não encontrada</p>
+          <p className="fs-3">Oops! Page not found</p>
           <p className="lead">
-            A página que você está procurando não existe ainda.
+            The page you are looking for does not exist yet.
           </p>
           <Link to={`/`} className="btn btn-primary">
-            Ir para Home
+            Back home
           </Link>
         </div>
       </div>
