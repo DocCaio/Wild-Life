@@ -9,7 +9,7 @@ import { EffectFade} from 'swiper/modules';
 import Tiger from '../../assets/tiger.jpeg';
 import Lizard from '../../assets/lizard.jpeg';
 import Alce from '../../assets/moose.jpeg';
-import Elefante from './assets/elefante.jpeg';
+import Elefante from '../../assets/elefante.jpeg';
 import Tucano from '../../assets/tucano.jpeg';
 
 
