@@ -1,0 +1,15 @@
+[
+    {
+      "src": "./assets/blackMamba.jpeg",
+      "description": "Descrição da Mamba"
+    },
+    {
+      "src": "./assets/tataruga.jpeg",
+      "description": "Descrição da Tartaruga"
+    },
+    {
+      "src": "./assets/giraffe.jpg",
+      "description": "Descrição da Girafa"
+    }
+  ]
+  

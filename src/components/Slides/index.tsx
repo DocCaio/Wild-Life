@@ -1,7 +1,7 @@
 import styles from './slides.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState, useEffect } from 'react';
-import slidesData from '../../utils/slides.json';
+import slidesData from '../../data/slides.json';
 import { EffectFade } from 'swiper/modules';
 
 
@@ -13,7 +13,7 @@ import Elefante from '../../assets/elefante.jpeg';
 import Tucano from '../../assets/tucano.jpeg';
 
 
-// Crie um mapeamento entre o nome do arquivo e a importação
+// Cria um mapeamento entre o nome do arquivo e a importação
 const imageMap: { [key: string]: string } = {
   'tiger.jpeg': Tiger,
   'lizard.jpeg': Lizard,
