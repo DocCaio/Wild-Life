@@ -1,7 +1,7 @@
 
 import styles from "./info.module.css";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Mamba from "../assets/blackMamba.jpeg";
 
 export default function Info() {
