@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import styles from "./navbar.module.css";
 
 export default function Navbar() {
@@ -7,13 +8,13 @@ export default function Navbar() {
       <nav className={styles.nav}>
         <ul className={styles.headerList}>
           <li>
-          <a className={styles.headerLink} href='#'>Home</a>
+          <Link className={styles.headerLink} to={'/'}>Home</Link>
           </li>
           <li>
           <a className={styles.headerLink} href='#contact'>Contact</a>
           </li>
           <li>
-          <a className={styles.headerLink} href='../../pages/Info'>Info</a>
+          <Link className={styles.headerLink} to={'/info'}>Info</Link>
           </li>     
 
   

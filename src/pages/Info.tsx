@@ -1,8 +1,8 @@
 
-import styles from "./info.module.css";
+import styles from "./styles/info.module.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Mamba from "../assets/blackMamba.jpeg";
+import Mamba from "./assets/blackMamba.jpeg";
 
 export default function Info() {
   return (
@@ -10,7 +10,13 @@ export default function Info() {
     <Navbar/>
     <main>
     <section className={styles.container}>
-    <img src={Mamba}/>
+      <div>
+        <img src={Mamba}/>
+      </div>
+      <div>
+        <p>Descripcion</p>
+      </div>
+
      </section>
     </main>
  
