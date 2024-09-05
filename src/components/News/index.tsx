@@ -1,48 +1,49 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from './news.module.css';
+import Teather from './assets/park.png';
+import Birds from './assets/birds.jpeg';
+import Kid from './assets/girl.jpeg';
 
-import { Link } from "react-router-dom";
-import styles from "./news.module.css";
-import Teather from "./assets/park.png";
-import Birds from "./assets/birds.jpeg";
-import Kid from "./assets/girl.jpeg";
+const News: React.FC = () => {
+    const newsItems = [
+        {
+            image: Kid,
+            altText: 'A child',
+            text: 'Bring the kids to interact with some animals',
+        },
+        {
+            image: Teather,
+            altText: 'Theater',
+            text: 'Ecological theater about the importance of preserving the environment',
+        },
+        {
+            image: Birds,
+            altText: 'Birds',
+            text: 'Bird Day, come and see birds from everywhere',
+        },
+    ];
 
-export default function News() {
     return (
         <section className={styles.container}>
             <div className={styles.container__texts}>
-            <span className={styles.container__title}>News</span>
-            <h2>Discover what's new at the Zoo</h2>
+                <span className={styles.container__title}>News</span>
+                <h2>Discover what's new at the Zoo</h2>
             </div>
-          
 
             <div className={styles.container__cards}>
-
-            <div className={styles.cards}>
-              <img src={Kid} alt="A child" />
-                <p>
-                    Bring the kids to interact
-                    with some animals
-                </p>
+                {newsItems.map((item, index) => (
+                    <div key={index} className={styles.cards}>
+                        <img className={styles.cards__img} src={item.image} alt={item.altText} />
+                        <p>{item.text}</p>
+                        <Link className={styles.cards__links} to="/">Find out more</Link>
+                    </div>
+                ))}
             </div>
 
-            <div>
-            <img src={Teather} alt="Theather" />
-                <p>
-                    Ecological theater about
-                    the importance of preserving
-                    the environment
-                </p>
-            </div>
-
-            <div>
-                <img src={Birds} alt="Birds" />
-                <p>
-                    Bird Day, come and see birds
-                    from everywhere
-                </p>
-            </div>
-
-            </div>
-            <Link to={'/'}>Find out more</Link>
+          
         </section>
     );
 }
+
+export default News;
