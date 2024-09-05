@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "image": "../components/News/assets/girl.jpeg",
+      "alt": "A child",
+      "text": "Bring the kids to interact with some animals"
+    },
+    {
+      "id": 2,
+      "image": "../components/News/assets/girl.jpeg",
+      "alt": "Theater",
+      "text": "Ecological theater about the importance of preserving the environment"
+    },
+    {
+      "id": 3,
+      "image": "./assets/birds.jpeg",
+      "alt": "Birds",
+      "text": "Bird Day, come and see birds from everywhere"
+    }
+  ]
+  
