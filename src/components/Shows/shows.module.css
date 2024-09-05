@@ -1,0 +1,29 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.title {
+color: rgb(93, 125, 56);
+}
+
+.text {
+    color: rgb(93, 125, 56);  
+}
+
+.container__link {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: rgb(198, 103, 47);
+    text-decoration: none;
+    border: 2px solid rgb(198, 103, 47);
+}
+
+.container__link:hover {
+    border: 2px solid #EC6608;
+    color:#fff;
+    background-color:  #EC6608;
+}
+
+
+
