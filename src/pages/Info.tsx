@@ -12,27 +12,31 @@ export default function Info() {
     <Navbar/>
     <main>
     <section className={styles.container}>
-      <div>
+
+      <div className={styles.contain}>
+      <div >
         <img src={Mamba}/>
       </div>
       <div>
         <p>Descripcion</p>
       </div>
+      </div>
 
-
-      <div>
+      <div id={styles.contain_card} className={styles.contain}>
+      <div >
         <img src={Turtle}/>
       </div>
       <div>
         <p>Descripcion</p>
       </div>
-
-
-      <div>
+      </div>
+      <div className={styles.contain}>
+      <div >
         <img src={Giraffe}/>
       </div>
       <div>
         <p>Descripcion</p>
+      </div>
       </div>
       
 
