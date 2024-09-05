@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+
+    --ff: "Plus Jakarta Sans", sans-serif;
+    --bg-links: rgb(198, 103, 47);
+
+}
+
 .container {
     text-align: center;
     background-color: #31582F;
@@ -8,6 +17,20 @@
     margin-bottom: 1rem;
 }
 
+.container__texts h2 {
+    font-family: var(--ff);
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.container__title {
+    font-family: var(--ff);
+    font-size: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 .container__cards {
     display: flex;
     justify-content: center;
@@ -15,15 +38,23 @@
 }
 
 .container__cards p {
-    text-align: justify;
+    font-family: var(--ff);
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
     max-width: 300px;
 }
 
+
 .cards__img {
+    border-bottom: solid 5px rgb(106, 145, 51);
     max-width: 300px;
 }
 
 .cards__links {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
     background-color: #EC6608;
     border-radius: 20px;
@@ -33,7 +64,7 @@
 }
 
 .cards__links:hover {
-    background-color: rgb(198, 103, 47);
+    background-color: var(--bg-links);
 
 }
 
