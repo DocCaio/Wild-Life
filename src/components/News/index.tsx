@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './news.module.css';
-import Teather from './assets/park.png';
-import Birds from './assets/birds.jpeg';
+import Teather from './assets/park.jpeg';
+import Birds from './assets/birds.jpg';
 import Kid from './assets/girl.jpeg';
 
 const News: React.FC = () => {
@@ -15,7 +15,7 @@ const News: React.FC = () => {
         {
             image: Teather,
             altText: 'Theater',
-            text: 'Ecological theater about the importance of preserving the environment',
+            text: 'Face painting and lots of fun for the whole family',
         },
         {
             image: Birds,

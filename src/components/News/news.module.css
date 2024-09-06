@@ -61,6 +61,7 @@
     padding: 10px 30px;
     color: #fff;
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 .cards__links:hover {
