@@ -1,21 +1,20 @@
 [
-    {
-      "id": 1,
-      "description": "Event 1 Description",
-      "date": "2024-09-15",
-      "image": "path/to/image1.jpg"
-    },
-    {
-      "id": 2,
-      "description": "Event 2 Description",
-      "date": "2024-09-22",
-      "image": "path/to/image2.jpg"
-    },
-    {
-      "id": 3,
-      "description": "Event 3 Description",
-      "date": "2024-10-01",
-      "image": "path/to/image3.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "image": "../components/Shows/assets/paint.jpg",
+    "description": "descricao",
+    "date": "data"
+  },
+  {
+    "id": 2,
+    "image": "./assets/piquinique.jpg",
+    "description": "descricao",
+    "date": "data"
+  },
+  {
+    "id": 3,
+    "image": "./assets/walk.jpg",
+    "description": "descricao",
+    "date": "data"
+  }
+]
