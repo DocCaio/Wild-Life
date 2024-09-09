@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './shows.module.css';
 import pic from './assets/piquinique.jpg'
-
+import paint from './assets/paint.jpg';
 import  walk from './assets/walk.jpg';
 
 
@@ -42,7 +42,7 @@ export default function Shows() {
          <div className={styles.cards}>
 
 <div>
- <img src={pic} alt={'descrcao'} />              
+ <img src={paint} alt={'descrcao'} />              
 
 </div>
 
