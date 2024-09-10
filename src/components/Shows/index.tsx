@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './shows.module.css';
 import pic from './assets/piquinique.jpg'
 import paint from './assets/paint.jpg';
-import  walk from './assets/walk.jpg';
+import walk from './assets/walk.jpg';
 
 
 export default function Shows() {
@@ -13,85 +13,88 @@ export default function Shows() {
         <h2 className={styles.text}>Join us!</h2>
       </div>
 
-        <div className={styles.cards}>
+      <div className={styles.cards}>
 
-             <div>
-              <img src={pic} alt={'descrcao'} />              
-          
-            </div>
+        <div>
+          <img src={pic} alt={'descrcao'} />
 
-            <div>
-            <span className={styles.containDescription}>descricao</span>
-            </div>
+        </div>
 
-            <div className={styles.contain}>              
-              <span className={styles.containDate}>
-                data
-                <i className="bi bi-calendar3"></i>               
-              </span>
-            </div>
+        <div>
+          <span className={styles.containDescription}>descricao</span>
+        </div>
 
-            <div className={styles.icon}>
-              <i className="bi bi-caret-right-fill"></i>
-            </div>
+        <div className={styles.contain}>
+          <span className={styles.containDate}>
+            <i className="bi bi-calendar3"></i>
+            data
 
+          </span>
+        </div>
 
-         </div>
+        <div className={styles.icon}>
+          <i className="bi bi-caret-right-fill"></i>
+        </div>
 
 
-         <div className={styles.cards}>
-
-<div>
- <img src={paint} alt={'descrcao'} />              
-
-</div>
-
-<div>
-<span className={styles.containDescription}>descricao</span>
-</div>
-
-<div className={styles.contain}>              
- <span className={styles.containDate}>
-   data
-   <i className="bi bi-calendar3"></i>               
- </span>
-</div>
-
-<div className={styles.icon}>
- <i className="bi bi-caret-right-fill"></i>
-</div>
+      </div>
 
 
-</div>
+      <div className={styles.cards}>
+
+        <div>
+          <img src={paint} alt={'descrcao'} />
+
+        </div>
+
+        <div>
+          <span className={styles.containDescription}>descricao</span>
+        </div>
+
+        <div className={styles.contain}>
+          <span className={styles.containDate}>
+            <i className="bi bi-calendar3"></i>
+            data
+
+          </span>
+        </div>
+
+        <div className={styles.icon}>
+          <i className="bi bi-caret-right-fill"></i>
+        </div>
+
+
+      </div>
 
 
 
 
-<div className={styles.cards}>
+      <div className={styles.cards}>
 
-<div>
- <img src={walk} alt={'descrcao'} />              
+        <div>
+          <img src={walk} alt={'descrcao'} />
 
-</div>
+        </div>
 
-<div>
-<span className={styles.containDescription}>descricao</span>
-</div>
+        <div>
+          <span className={styles.containDescription}>descricao</span>
+        </div>
 
-<div className={styles.contain}>              
- <span className={styles.containDate}>
-   data
-   <i className="bi bi-calendar3"></i>               
- </span>
-</div>
+        <div className={styles.contain}>
+          <span className={styles.containDate}>
+            <i className="bi bi-calendar3"></i>
+            data
 
-<div className={styles.icon}>
- <i className="bi bi-caret-right-fill"></i>
-</div>
+          </span>
+        </div>
+
+        <div className={styles.icon}>
+          <i className="bi bi-caret-right-fill"></i>
+        </div>
 
 
-</div>
-     
+      </div>
+
 
       <div>
         <Link className={styles.container__link} to={'/'}>Find out more</Link>

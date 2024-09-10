@@ -9,7 +9,7 @@
 
 .container {
     text-align: center;
-    padding: 15rem;  
+    padding: 15rem 0;  
 
 }
 
@@ -62,9 +62,9 @@
 .cards {
     display: flex;
     justify-content: space-around;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 0 0 8px 4px #616060;
     align-items: center;
-    margin-bottom: 3rem;   
+     margin-bottom: 1rem;    
     
    
 }
@@ -72,11 +72,12 @@
 .cards img {   
     position: relative; 
     width: 100%;
-    height: auto;
+  
 }
 
 .contain {
     display: flex;
+    
 }
 
 .containDescription {
@@ -92,8 +93,41 @@
     font-size: 15px;
     font-weight: 600;
     color: rgb(95, 125, 43);
+    gap: 10px;
+   
 }
 
 .icon {
        color: var(--color-link);
 }
+
+@media (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items:center ; 
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;  
+        align-items: start;
+        max-width: 90%; 
+        padding: 1rem 0; 
+        
+        
+       
+    }
+  
+
+    .containDescription, .containDate {
+        margin-left: 15px;
+       
+    }
+
+    .icon {
+        display: none;
+ }
+    
+  }
