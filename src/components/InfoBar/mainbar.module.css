@@ -1,0 +1,18 @@
+.mainBar {
+    background-color: #31582F;    
+}
+
+.barList {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+}
+
+
+
+.mainBar img {
+    width: 100px;
+
+}

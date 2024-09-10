@@ -1,7 +1,7 @@
 
 import styles from "./styles/info.module.css";
 import Navbar from "../components/Navbar";
-import MainBar from "../components/MainBar";
+import MainBar from "../components/InfoBar";
 import Footer from "../components/Footer";
 import Mamba from "./assets/blackMamba.jpeg";
 import Turtle from "./assets/tataruga.jpeg";
