@@ -31,3 +31,11 @@
     width: 90px;
 
 }
+
+
+@media (max-width: 600px) {
+    .barList {
+        display: none;
+    }
+    
+}

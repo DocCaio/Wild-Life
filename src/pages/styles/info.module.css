@@ -134,6 +134,33 @@
 }
 
 
-.container p {
-    color: black;
+
+
+
+@media (max-width: 780px) {
+
+    .contain  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+.container img {
+    height: 80%;
+    width: 80%;
+    margin-top: 2rem;
 }
+
+
+#contain_card {
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+
+
+    
+    
+    }
