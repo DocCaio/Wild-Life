@@ -7,11 +7,16 @@
     --ff: "Plus Jakarta Sans", sans-serif;
 }
 
-.container {
-    text-align: center;
-    padding: 15rem 0;  
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    text-align: center;
 }
+
 
 .title {
     color: var(--color-text);
@@ -29,7 +34,11 @@
 
 }
 
-.container__link {
+.btn {
+ margin: 2rem 0;
+}
+
+.btn__link {
     border-radius: 20px;
     padding: 10px 20px;
     color: var(--color-link);
@@ -37,11 +46,10 @@
     border: 2px solid var(--color-link);
     font-family: var(--ff);
     font-weight: 600;
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
 
-.container__link:hover {
+.btn__link:hover {
     border: 2px solid var(--bg-link);
     color: #fff;
     background-color: var(--bg-link);
@@ -54,30 +62,43 @@
     margin-bottom: 2rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     justify-content: space-between;
-  
-  
+
 
 }
+
+
+
+
 
 .cards {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0 8px 4px #616060;
-    align-items: center;
-     margin-bottom: 1rem;    
-    
-   
+    align-items: start;
+    margin-bottom: 1rem;
+    max-width: 90%;
+    padding-bottom: 1rem;
+
+
 }
 
-.cards img {   
-    position: relative; 
+
+.containDescription,
+.containDate {
+    margin-left: 15px;
+
+}
+
+.cards img {
+    position: relative;
     width: 100%;
-  
+
 }
 
 .contain {
     display: flex;
-    
+
 }
 
 
@@ -96,40 +117,47 @@
     font-weight: 600;
     color: rgb(95, 125, 43);
     gap: 10px;
-   
+
 }
 
 .icon {
-       color: var(--color-link);
+    display: none;
 }
 
-@media (max-width: 600px) {
+
+@media (min-width: 1024px) {
 
     .container {
-        display: flex;
-        flex-direction: column; 
-        justify-content: center; 
-        align-items:center ; 
+        text-align: center;
+        padding: 5rem 0;
+
     }
+
     .cards {
         display: flex;
-        flex-direction: column;  
-        align-items: start;
-        max-width: 90%; 
-        padding: 1rem 0; 
-        
-        
-       
+        flex-direction: row;
+        justify-content: space-between;        
+        width: 1100px;
+        height: 100px;        
+        align-items: center;
+        padding-bottom: 0;
     }
-  
 
-    .containDescription, .containDate {
-        margin-left: 15px;
+    .cards img {        
+        width: 277.5px;
+        height: 100px;    
        
+    
     }
+
+
+
 
     .icon {
-        display: none;
- }
-    
-  }
+        display: block;
+        color: var(--color-link);
+        margin-right: 1rem;
+    }
+
+
+}

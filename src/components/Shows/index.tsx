@@ -96,8 +96,8 @@ export default function Shows() {
       </div>
 
 
-      <div>
-        <Link className={styles.container__link} to={'/'}>Find out more</Link>
+      <div className={styles.btn}>
+        <Link className={styles.btn__link} to={'/'}>Find out more</Link>
       </div>
 
     </section>
