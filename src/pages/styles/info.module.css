@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --text: rgb(113, 157, 51);
+    --ff: "Plus Jakarta Sans", sans-serif;
+    --reptiles:rgb(198, 103, 47);
+    --aquatic:rgb(213, 178, 10);
+    --herbivore:rgb(90, 123, 158);
+    --carnivore:rgb(70, 112, 14);
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -6,10 +17,111 @@
     margin-top: 1rem;
 }
 
+ .span {
+    font-family: var(--ff);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+ }
+
+.container h2 {
+    font-family:var(--ff);
+    font-size: 42px;
+    color: var(--text);
+    font-weight: 600;
+}
+
 .contain {
     display: flex;    
     align-items: center;
+    font-family: var(--ff);
 }
+
+  /*Buttons and titles*/
+
+.text {
+   text-align: center;
+}
+ .title {
+    color: var(--reptiles);
+    font-size: 42px;
+    font-weight: 600;
+    font-family: var(--ff);
+    
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--reptiles);
+    font-family: var(--ff);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+.title2 {
+    color: var(--aquatic);
+    font-size: 42px;
+    font-weight: 600;
+    font-family: var(--ff);
+    
+}
+
+.btn2 {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--aquatic);
+    font-family: var(--ff);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+
+.title3 {
+    color: var(--herbivore);
+    font-size: 42px;
+    font-weight: 600;
+    font-family: var(--ff);
+    
+}
+
+.btn3 {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--herbivore);
+    font-family: var(--ff);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+
+.title4 {
+    color: var(--carnivore);
+    font-size: 42px;
+    font-weight: 600;
+    font-family: var(--ff);
+    
+}
+
+.btn4 {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--carnivore);
+    font-family: var(--ff);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+
+
 
 #contain_card {
     flex-direction: row-reverse;
