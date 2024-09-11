@@ -5,8 +5,30 @@
 
 ## Techs
 
+<div> 
+   <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+ 
+  <img  width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
 
-  [![My Skills](https://skillicons.dev/icons?i=html,css,nodejs,ts,react,vite,bootstrap)](https://skillicons.dev)
+  <img   width="60"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />          
+
+  <img    width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />          
+
+  <img  width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+
+  <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+  
+ 
+  <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swiper/swiper-original.svg" />     
+          
+          
+          
+          
+
+</div>
+
+           
+          
 
 
   # :hammer: Project features
