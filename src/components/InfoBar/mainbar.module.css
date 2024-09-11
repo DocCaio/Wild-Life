@@ -4,15 +4,30 @@
 
 .barList {
     display: flex;
+    gap: 50px;
 }
 
 .bar {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+
+.barLink {      
+    text-decoration: none;
+    color: #fff;
+}
+
+.barLink:hover {
+  color:rgba(255, 255, 255, 0.5) ;  
 }
 
 
 
+
 .mainBar img {
-    width: 100px;
+    width: 90px;
 
 }

@@ -8,40 +8,41 @@ export default function MainBar() {
     <section className={styles.mainBar}>
       <div className={styles.bar}>
    
-          <Link className={styles.headerLink}
-           to={'/'}>
-             <img src={Logo} alt="Logo"/>
-
-           </Link>
+        
          
         <ul className={styles.barList}>
          
           <li>
-          <a className={styles.headerLink} href='#contact'>Visit us</a>
+          <a className={styles.barLink} href='#'>Visit us</a>
           </li>
           <li>
-          <Link className={styles.headerLink} to={'/info'}>Projects</Link>
+          <Link className={styles.barLink} to={'#'}>Projects</Link>
           </li>    
           <li>
-          <Link className={styles.headerLink} to={'/info'}>Education</Link>
-          </li>    
-
-          <li>
-          <Link className={styles.headerLink} to={'/info'}>News</Link>
+          <Link className={styles.barLink} to={'#'}>Education</Link>
           </li>    
 
           <li>
-          <Link className={styles.headerLink} to={'/info'}>Books</Link>
+          <Link className={styles.barLink} to={'#'}>News</Link>
           </li>    
 
           <li>
-          <Link className={styles.headerLink} to={'/info'}>Support us</Link>
+          <Link className={styles.barLink} to={'#'}>Books</Link>
+          </li>    
+
+          <li>
+          <Link className={styles.barLink} to={'#'}>Support us</Link>
           </li>    
 
 
   
     
         </ul>
+        <Link className={styles.headerLink}
+           to={'/'}>
+             <img src={Logo} alt="Logo"/>
+
+           </Link>
       </div>
 
     </section>
