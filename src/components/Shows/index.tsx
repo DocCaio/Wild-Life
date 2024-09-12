@@ -21,13 +21,15 @@ export default function Shows() {
         </div>
 
         <div>
-          <span className={styles.containDescription}>descricao</span>
+          <span className={styles.containDescription}>
+            Piquinique com as crianças
+            </span>
         </div>
 
         <div className={styles.contain}>
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
-            data
+            15 Jun
 
           </span>
         </div>
@@ -48,13 +50,15 @@ export default function Shows() {
         </div>
 
         <div>
-          <span className={styles.containDescription}>descricao</span>
+          <span className={styles.containDescription}>
+            Aula de pintura
+            </span>
         </div>
 
         <div className={styles.contain}>
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
-            data
+            27 Feb
 
           </span>
         </div>
@@ -77,13 +81,15 @@ export default function Shows() {
         </div>
 
         <div>
-          <span className={styles.containDescription}>descricao</span>
+          <span className={styles.containDescription}>
+            Trilha em grupo
+            </span>
         </div>
 
         <div className={styles.contain}>
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
-            data
+            12 Aug
 
           </span>
         </div>
