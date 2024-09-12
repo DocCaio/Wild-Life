@@ -75,7 +75,7 @@
 
 
     .container {       
-        padding: 0rem;
+        padding: 2rem 0;
     }
     .container__cards {
         align-items: center;

@@ -113,19 +113,18 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
     .containCards {
         display: flex;
-     
+        flex-direction: column;     
         justify-content: center;
         align-items: center;
     }
     
     
 .cards {
-    display: flex;
-       
+    display: flex;       
     box-shadow: 0 0 8px 4px #616060;
     text-align: start;
     margin-bottom: 1rem;    
