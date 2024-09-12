@@ -8,16 +8,19 @@ import walk from './assets/walk.jpg';
 export default function Shows() {
   return (
     <section className={styles.container}>
+
       <div>
         <span className={styles.title}>Upcoming events</span>
         <h2 className={styles.text}>Join us!</h2>
       </div>
 
+
+      <div className={styles.containCards}>
+
       <div className={styles.cards}>
 
         <div>
-          <img src={pic} alt={'descrcao'} />
-
+          <img src={pic} alt={'descricao'} />
         </div>
 
         <div>
@@ -30,23 +33,20 @@ export default function Shows() {
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
             15 Jun
-
           </span>
-        </div>
-
-        <div className={styles.icon}>
+          <div className={styles.icon}>
           <i className="bi bi-caret-right-fill"></i>
+        </div>        
         </div>
 
+      
 
       </div>
 
 
       <div className={styles.cards}>
-
         <div>
           <img src={paint} alt={'descrcao'} />
-
         </div>
 
         <div>
@@ -59,13 +59,13 @@ export default function Shows() {
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
             27 Feb
-
           </span>
-        </div>
-
-        <div className={styles.icon}>
+          <div className={styles.icon}>
           <i className="bi bi-caret-right-fill"></i>
         </div>
+        </div>
+
+     
 
 
       </div>
@@ -77,7 +77,6 @@ export default function Shows() {
 
         <div>
           <img src={walk} alt={'descrcao'} />
-
         </div>
 
         <div>
@@ -90,18 +89,18 @@ export default function Shows() {
           <span className={styles.containDate}>
             <i className="bi bi-calendar3"></i>
             12 Aug
-
           </span>
-        </div>
-
-        <div className={styles.icon}>
+          <div className={styles.icon}>
           <i className="bi bi-caret-right-fill"></i>
         </div>
+        </div>
+
+     
 
 
       </div>
 
-
+      </div>
       <div className={styles.btn}>
         <Link className={styles.btn__link} to={'/'}>Find out more</Link>
       </div>

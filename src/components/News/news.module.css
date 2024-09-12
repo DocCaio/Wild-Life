@@ -10,7 +10,7 @@
 .container {
     text-align: center;
     background-color: #31582F;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .container__texts {
@@ -71,8 +71,14 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+
+
+    .container {       
+        padding: 0rem;
+    }
     .container__cards {
+        align-items: center;
         flex-direction: column;
     }
 

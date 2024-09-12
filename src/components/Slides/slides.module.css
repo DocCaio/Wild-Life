@@ -187,3 +187,17 @@
         font-size: 30px;
     }
   }
+
+  @media screen and (max-width:878px){
+
+    .carousel {
+      padding: 1rem 0;
+    }
+    .carousel .list .item .content {
+        padding-right: 0;
+    } 
+    
+    .carousel .list .item .content .title {
+        font-size: 30px;
+    }
+  }
