@@ -67,7 +67,7 @@ const Home = () => {
                       <div className={styles.description}>
                         {item.description}
                       </div>
-                      <div className={styles.buttons}>
+                      <div className={styles.buttons}>                        
                         <button className={styles.btn}>See more</button>
                         <button className={styles.btn}>Tickets</button>
                       </div>
