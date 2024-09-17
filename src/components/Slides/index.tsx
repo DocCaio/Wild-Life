@@ -11,6 +11,7 @@ import Lizard from '../../assets/lizard.jpeg';
 import Alce from '../../assets/moose.jpeg';
 import Elefante from '../../assets/elefante.jpeg';
 import Tucano from '../../assets/tucano.jpeg';
+import { Link } from 'react-router-dom';
 
 
 // Cria um mapeamento entre o nome do arquivo e a importação
@@ -67,7 +68,7 @@ const Home = () => {
                       <div className={styles.description}>
                         {item.description}
                       </div>
-                      <div className={styles.buttons}>                        
+                      <div className={styles.buttons}>                                             
                         <button className={styles.btn}>See more</button>
                         <button className={styles.btn}>Tickets</button>
                       </div>
