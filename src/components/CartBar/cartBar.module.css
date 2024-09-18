@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* NavBar */
+
+.nav-bar {
+    height: 70px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-bar h2 {
+    font-size: 40px;
+  }
+  .nav-bag {
+    display: flex;
+    align-items: center;
+  }
+  .bag-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: yellow;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-left: 5px;
+  }
+  
