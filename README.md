@@ -49,5 +49,6 @@
 
   ```mk
 npm i swiper
+npm install react-redux
 
 ```
