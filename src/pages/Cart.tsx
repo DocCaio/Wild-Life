@@ -1,5 +1,5 @@
-import { products } from '../products'
-import ProductCart from '../components/productCart'
+import { products } from '../data/products.json'
+import ProductCart from '../components/ProductCart'
 const Home = () => {
   return (
     <div>

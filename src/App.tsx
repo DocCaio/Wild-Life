@@ -16,8 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />          
           <Route path="*" element={<Error/>} />
-          <Route path="/info" element={<Info/>} />
-          <Route path="/appCart" element={<Info/>} />           
+          <Route path="/info" element={<Info/>} />                    
         </Routes>     
     </BrowserRouter>
     
