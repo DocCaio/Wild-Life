@@ -68,7 +68,8 @@ const Home = () => {
                       <div className={styles.description}>
                         {item.description}
                       </div>
-                      <div className={styles.buttons}>                                             
+                      <div className={styles.buttons}> 
+                        <Link to={'/cart/components/Home.jsx'}>teste</Link>                                            
                         <button className={styles.btn}>See more</button>
                         <button className={styles.btn}>Tickets</button>
                       </div>
