@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+}
+
+.containerText {
+    text-align: center;
+}
+
+.title {
+    display: 1;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.75rem;
+}
+
+.warn {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.btn {
+    border-radius: 20px;
+    padding: 15px 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+
+}
