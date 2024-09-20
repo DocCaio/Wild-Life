@@ -11,6 +11,7 @@ import Lizard from '../../assets/lizard.jpeg';
 import Alce from '../../assets/moose.jpeg';
 import Elefante from '../../assets/elefante.jpeg';
 import Tucano from '../../assets/tucano.jpeg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -68,13 +69,14 @@ const Home = () => {
                       <div className={styles.description}>
                         {item.description}
                       </div>
-                      <div className={styles.buttons}>                                             
-                        <button className={styles.btn}>See more</button>
-                        <button className={styles.btn}>Tickets</button>
+                      <div className={styles.buttons}>    
+                        <Link className={styles.btn} to={'/'}>See more</Link>   
+                        <Link className={styles.btn} to={'/'}>Tickets</Link>    
+                      </div>                                      
+                        
                       </div>
                     </div>
                   </div>
-                </div>
               </div>
             </SwiperSlide>
           ))}
