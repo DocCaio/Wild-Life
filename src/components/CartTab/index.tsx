@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux' 
-import CartItem from './cartItem';
-import { toggleStatusTab } from '../stores/cart';
+import CartItem from '../CartItem';
+import { toggleStatusTab } from '../../stores/cart';
 
 const CartTab = () => {
     const carts = useSelector(store => store.cart.items);

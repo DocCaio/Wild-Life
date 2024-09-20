@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom' 
 import Header from '../Navbar'
-import CartTab from './cartTab' 
+import CartTab from '../CartTab' 
 import { useSelector } from 'react-redux'
 
 const Layout = () => {

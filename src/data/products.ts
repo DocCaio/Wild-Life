@@ -1,11 +1,11 @@
-import imageProduct1 from './assets/images/1.png' 
-import imageProduct2 from './assets/images/2.png' 
-import imageProduct3 from './assets/images/3.png' 
-import imageProduct4 from './assets/images/4.png' 
-import imageProduct5 from './assets/images/5.png' 
-import imageProduct6 from './assets/images/6.png' 
-import imageProduct7 from './assets/images/7.png' 
-import imageProduct8 from './assets/images/8.png' 
+import imageProduct1 from '../components/ProductCart/assets/1.png' 
+import imageProduct2 from '../components/ProductCart/assets/2.png' 
+import imageProduct3 from '../components/ProductCart/assets/3.png' 
+import imageProduct4 from '../components/ProductCart/assets/4.png' 
+import imageProduct5 from '../components/ProductCart/assets/5.png' 
+import imageProduct6 from '../components/ProductCart/assets/6.png'
+import imageProduct7 from '../components/ProductCart/assets/7.png'
+import imageProduct8 from '../components/ProductCart/assets/8.png' 
 export const products = [
     {
         id: 1,

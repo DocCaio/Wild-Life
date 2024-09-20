@@ -1,4 +1,4 @@
-import './App.css';
+import './App.module.css';
 import Layout from './components/Layout';
 import Home from './pages/Cart';
 import Detail from './pages/Detail';
