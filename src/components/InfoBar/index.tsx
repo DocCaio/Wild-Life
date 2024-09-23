@@ -6,8 +6,7 @@ import Logo from "../../assets/zoodev.png";
 export default function MainBar() {
   return (
     <section className={styles.mainBar}>
-      <div className={styles.bar}>
-   
+      <div className={styles.bar}> 
         
          
         <ul className={styles.barList}>
