@@ -17,7 +17,6 @@ interface Product {
 const Detail = () => {
   const { slug } = useParams<{ slug: string }>();
   
-  // O estado agora é do tipo Product ou undefined
   const [detail, setDetail] = useState<Product | undefined>(undefined);
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
@@ -43,14 +42,13 @@ const Detail = () => {
     if (detail) {
       dispatch(
         addToCart({
-          productId: detail.id,
+          productId: detail.id.toString(), // Convert the productId to a string
           quantity: quantity,
         })
       );
     }
   };
 
-  // Verifique se `detail` existe antes de renderizar
   if (!detail) {
     return <div>Loading...</div>;
   }
