@@ -71,7 +71,7 @@ const Home = () => {
                       </div>
                       <div className={styles.buttons}>    
                         <Link className={styles.btn} to={'/'}>See more</Link>   
-                        <Link className={styles.btn} to={'/appCart'}>Tickets</Link>    
+                        <Link className={styles.btn} to={'/tickets'}>Tickets</Link>    
                       </div>                                      
                         
                       </div>

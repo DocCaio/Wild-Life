@@ -3,7 +3,7 @@ import Error from './pages/Error';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Info from './pages/Info';
-import Cart from './AppCart';
+import Cart from './pages/Tickets';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<Home/>} />          
           <Route path="*" element={<Error/>} />
           <Route path="/info" element={<Info/>} /> 
-          <Route path="/appCart" element={<Cart/>} />                   
+          <Route path="/tickets" element={<Cart/>} />                   
         </Routes>     
     </BrowserRouter>
     
