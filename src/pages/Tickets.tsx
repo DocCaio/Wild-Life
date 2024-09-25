@@ -6,7 +6,7 @@ import { About } from "./About"
 import { Navbar } from "../components/Shop/Navbar"
 import { ShoppingCartProvider } from "../context/ShoppingCartContext"
 
-function App() {
+function Tickets() {
   return (
     <ShoppingCartProvider>
       <Navbar />
@@ -21,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default Tickets;
