@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     margin-top: -50px;
-    padding: relative;
+    position: relative;
   
   }
   
@@ -72,7 +72,8 @@
   .carousel .list .item .content .btn:nth-child(2) {
     background-color: black;
     border: 1px solid #eee;
-    color:  #eee; 
+    color:  #eee;
+    
     
   }
   

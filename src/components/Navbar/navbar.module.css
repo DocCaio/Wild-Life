@@ -30,3 +30,14 @@
 .headerLink:hover {
     color: #008000;
 }
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#check {
+    font-size: 75px;
+    color: #008000; 
+}

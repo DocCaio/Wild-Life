@@ -12,10 +12,10 @@ export function Navbar() {
           <Nav.Link to={"/"} as={NavLink}>
             Home
           </Nav.Link>
-          <Nav.Link to={"/store"} as={NavLink}>
+          <Nav.Link to={"#"} as={NavLink}>
             Store
           </Nav.Link>
-          <Nav.Link to={"/about"} as={NavLink}>
+          <Nav.Link to={"#"} as={NavLink}>
             About
           </Nav.Link>
         </Nav>
