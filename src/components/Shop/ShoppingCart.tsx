@@ -3,6 +3,7 @@ import { useShoppingCart } from "../../context/ShoppingCartContext"
 import { formatCurrency } from "../../utilities/formatCurrency"
 import { CartItem } from "./CartItem"
 import storeItems from "../../data/items.json"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 type ShoppingCartProps = {
   isOpen: boolean
