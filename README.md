@@ -35,7 +35,7 @@
 
 - `functionality `:
 - Responsive.
-- Zoo
+- Buy tickets
 - Swiper slides
   
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
