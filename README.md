@@ -1,54 +1,50 @@
-# Wild-Life Zoo
+# 🦁 Wild-Life Zoo
 
-### Many pages
+## A multi-page, responsive web application built for a modern zoo experience, allowing visitors to explore wildlife information, view interactive sliders, and purchase tickets online.
 
+## 🛠️ Technologies Used
+The project was built using modern web development tools and libraries:
 
-## Techs
+## 🚀 Project Features
+Responsive Design: Optimized for seamless viewing across mobile devices, tablets, and desktops.
 
-<div> 
-   <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
- 
-  <img  width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+Multi-Page Architecture: Structured navigation to explore various sections of the zoo.
 
-  <img   width="60"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />          
+Ticket Purchasing System: Functional interface allowing users to buy tickets online.
 
-  <img    width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />          
+Interactive Carousels: Smooth sliders powered by Swiper for featured exhibits and highlights.
 
-  <img  width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+## 📊 Project Status
 
-  <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
-  
- 
-  <img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swiper/swiper-original.svg" />     
-          
-          
-          
-          
+Finished
 
-</div>
+## 📸 Preview
 
-           
-          
+<img src="https://github.com/DocCaio/Wild-Life/blob/main/public/screenShot.png" alt="Minha Figura">
+
+## ⚙️ Installation & Setup
+
+This template provides a minimal setup to get React working in Vite with HMR and ESLint rules.
+
+To run this project locally, follow these steps:
 
 
-  # :hammer: Project features
-
-- `functionality `:
-- Responsive.
-- Buy tickets
-- Swiper slides
-  
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
-
-### Print
-  <img src="https://github.com/DocCaio/Wild-Life/blob/main/public/screenShot.png" alt="Minha Figura">
-
-
-
-  This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-  ```mk
+# Clone the repository
+```
+git clone https://github.com/DocCaio/Wild-Life.git
+```
+# Navigate to the project directory
+```
+cd Wild-Life
+```
+# Install dependencies
+```
+npm install
 npm i swiper
 npm install react-redux
-
 ```
+# Run the development server
+```
+npm run dev
+```
+
